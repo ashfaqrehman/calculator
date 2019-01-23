@@ -13,3 +13,9 @@ def test_three_plus_three():
     If given 3 and 2 as paramters, 6 should be returned
     """
     assert add(3,3) == 6   
+
+def test_no_parameters():
+    """
+    IF no params are provided return 0
+    """    
+    assert add() == 0
