@@ -2,7 +2,7 @@
 A calculator library
 """
 def add(*args):
-    sum=0
-    for value in args:
-        sum += value
-    return sum
+    """
+    add() Returns the sumf of n-params
+    """
+    return sum(args)
