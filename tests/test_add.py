@@ -19,3 +19,15 @@ def test_no_parameters():
     IF no params are provided return 0
     """    
     assert add() == 0
+
+def test_one_two_three():
+    """
+    Given values 1,2,3 should return 6
+    """
+    assert add(1,2,3) == 6
+
+def test_negative_values():
+    """
+    Given values -11,-1,22 should return 6
+    """
+    assert add(-11,-1,22) == 10
